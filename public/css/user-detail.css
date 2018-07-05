@@ -1,0 +1,29 @@
+.work-detail, .education-detail, .lived-detail{
+	background-color: white;
+	color: black;
+	box-shadow: 1px 1px grey;
+	border-radius: 2px;
+	font-family: 'Tillane';
+	padding: 5px;
+	width: 100%;
+}
+
+.work-detail:hover, .education-detail:hover, .lived-detail:hover{
+	-webkit-box-shadow:inset 0px 0px 0px 2px #3bbced;
+    -moz-box-shadow:inset 0px 0px 0px 2px #3bbced;
+    box-shadow:inset 0px 0px 0px 2px #3bbced;
+}
+
+#place{
+	font-size: 20px;
+	color: blue;
+}
+
+#from #to{
+	font-family: 'Handlee';
+}
+
+#edit-delete{
+	position: relative;
+	top: -26px;
+}

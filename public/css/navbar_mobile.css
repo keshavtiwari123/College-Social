@@ -1,0 +1,58 @@
+body {margin-top:2%;
+    margin-bottom: 8%;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1000;
+    background-color: #404040;
+    margin: 0px 0px 0px 0px;
+    height: 8%;
+    
+}
+
+.icon-bar a {
+    float: left;
+    width: 16.66%;
+    text-align: center;
+    padding: 0px;
+    transition: all 0.4s ease;
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+
+}
+
+.icon-bar a:hover {
+    color: #3bbcde;
+}
+
+.active {
+    background-color: red !important;
+    color: white;
+}
+
+#search{
+    width: 100%;
+    background-color: #555;
+    position: fixed;
+    padding: 5px;
+    top: 0px;
+    z-index: 1000;
+    background-color: #404040;
+    margin: 0px 0px 0px 0px;
+    height: 8%;
+}
+#search input{
+    width: 85%;
+}
+#search button{
+    float: right;
+}
+
+#space_in_mobile{
+    height: 10%;
+}

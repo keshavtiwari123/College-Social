@@ -1,0 +1,22 @@
+.big{
+	font-size: 30px;
+}
+
+.navbar-right li:nth-child(even) div{
+	margin-top: -7px;
+}
+.navbar-right li:nth-child(even){
+	margin-top: -5px;
+	text-align: center;
+}
+.navigator{
+	position: fixed; 
+	top:0px; 
+	z-index: 3; 
+	background-color: #f0f0f0; 
+	width: 100%; 
+	box-shadow: 2px 1px grey;
+	background-color: #3bbced;
+	height: 55px;
+	
+}

@@ -1,0 +1,85 @@
+body{
+	background-color: #f0f0f0;
+}
+
+.status{
+
+	background-color: white;
+	padding: 10px;
+	box-shadow: 1px 1px grey;
+	border-radius: 10px;
+	margin-right: -10px;
+	margin-left: -10px;
+}
+
+.status:hover{
+	box-shadow: 3px 3px 5px black;
+}
+
+#username{
+	position: relative;
+	top: -10px;
+	font-size: 20px;
+	font-family: 'Love Ya Like A Sister', cursive;
+	display: inline-block;
+}
+
+
+#time{
+	max-width: 100px;
+	position: relative; 
+	left: 60px; 
+	top: -30px;
+	font-family: bold;
+}
+
+#status-body{
+	font-size: 18px;
+	border: .5px solid #f0f0f0;  
+	border-radius: 3px; 
+	padding: 3px; 
+	padding-left: 10px; 
+	font-family: 'Handlee', cursive;
+}
+.user-detail img{
+	border-radius: 500px;
+	width: 50px;
+}
+
+#info{
+	max-width: 100%;
+	position: relative; 
+	left: 60px; 
+	top: -25px;
+	font-family: bold;
+	font-size: 12px;
+}
+
+.like-comment{
+	color: #0645ad;
+	cursor: pointer; 
+	font-size: 25px;
+	max-height: 30px;
+}
+#like-comment li{
+	width: 20%;
+	text-align: right;
+}
+#like-comment li:nth-child(even){
+	font-size: 13px;
+	text-align: left;
+}
+
+#like-comment li:nth-child(4){
+	width: 25%;
+}
+
+#online-dot{
+	padding: 4px;
+	background-color: green;
+	border-radius: 5px;
+	position: absolute;
+	width: 5px;
+	margin-left: 155px;
+	margin-top: -25px;
+}

@@ -1,0 +1,56 @@
+.message-senders{
+	position: fixed;
+	top: 8%;
+	left: 0%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 92%;
+	width: 25%;
+	background-color: white;
+	padding: 2%;
+	font-size: 20px;
+}
+.sender{
+	padding: 3px;
+	width: 120%;
+	margin-left: -25px;
+
+}
+.sender:hover{
+	background-color: #f0f0f0;
+	border: 2px solid #3bcdef;
+	border-radius: 20px; 
+	padding: 5px;
+	color: black;
+}
+#img{
+	width: 15%;
+	border-radius: 100px; 
+}
+
+#search-messages{
+	position: fixed;
+	top: 9%;
+	left: .5%;
+	width: 23%;
+
+}
+
+.messages{
+	position: fixed;
+	top: 8%;
+	left: 24%;
+	height: 92%;
+	width: 67.9%;
+	overflow-y: hidden;
+	padding: 2%;
+}
+#ifr{
+	
+	margin-top: -2.8%;
+	margin-left: -3%;
+	width: 106%;
+	height: 106%;
+	overflow-x: hidden;
+	
+}

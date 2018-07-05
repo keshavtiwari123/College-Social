@@ -1,0 +1,14 @@
+.status{
+  margin-right: -15px;
+  margin-left: -15px;
+  border-radius: 1px;
+}
+#status-body{
+  margin-right: -9px;
+  margin-left: -9px;
+  font-family: 'Handlee', cursive;
+}
+
+#username{
+	 font-family: 'Love Ya Like A Sister';
+}
