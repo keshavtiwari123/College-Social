@@ -1,1 +1,2 @@
-<iframe src='https://collegesocial.herokuapp.com'></iframe>
+please go to.
+http://collegesocial.herokuapp.com
